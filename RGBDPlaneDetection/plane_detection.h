@@ -24,10 +24,10 @@ const float kInfVal = 1000000; // an infinite large value used in MRF optimizati
 // All BundleFusion data uses the following parameters.
 const double kFx = 583;
 const double kFy = 583;
-const double kCx = 320;
-const double kCy = 240;
-const int kDepthWidth = 640;
-const int kDepthHeight = 480;
+const double kCx = 512;
+const double kCy = 512;
+const int kDepthWidth = 1024;
+const int kDepthHeight = 1024;
 
 #if defined(__linux__) || defined(__APPLE__)
 #define _isnan(x) isnan(x)
